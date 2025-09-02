@@ -2,7 +2,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: #d08b4a9f;
+    background-color: #714b28;;
     height: auto;
 }
 
@@ -11,8 +11,19 @@
     text-decoration: none;
     color: black;
     border-bottom: 1px solid;
+    transition: transform 0.5s ease;
 }
 
 .navbar a:hover{
      transform: scale(0.9);
+     transition: 0.2s;
+}
+
+#about-me a{
+    color: rgb(0, 0, 0);
+    background-color: none;
+}
+
+footer{
+    background-color: black;
 }

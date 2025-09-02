@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--default-font);
 }
 
 :root {
@@ -10,7 +11,8 @@
     --text-color: #222;
 
     /* Typografi */
-    --heading-font: fantasy;
+    --default-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
     --main-heading-size: 5rem;
     --sub-heading-size: 3.5rem;
 
@@ -31,8 +33,7 @@ body{
     font-size: var(--main-heading-size);
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    font-family: var(--heading-font);
+    margin-top: 30px;
 }
 
 .sub-headings{
@@ -40,7 +41,6 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: var(--heading-font);
 }
 
 
@@ -51,6 +51,8 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: var(--gap-size);
 }
+
+
 
 .finished-books ul{
     padding: var(--section-padding);
@@ -75,16 +77,18 @@ body{
     object-fit: cover;
     aspect-ratio: 2 / 3;
     border-radius: var(--border-radius);
-    transition: transform 1.3s ease;
+    transition: transform 0.8s ease;
+    filter: blur(5px);
 }
 
 img.book-cover:hover{
     transition: var(--transition-speed);
-    transform: scale(0.9);
+    transform: scale(0.8);
     /* border: 4px solid; */
     /* transform: rotate(360deg); */
     /* transform: scale(1.05); */
-    box-shadow: 0 0 20px rgba(0,255,255,0.5);
+    box-shadow: 0 0 35px rgba(0,255,255,0.5);
+    filter: none;
 }
 
 ul li{
