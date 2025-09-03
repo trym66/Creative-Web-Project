@@ -4,46 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Trym</title>
+
+    <!-- Favicon (Nettleser ikon i tab) -->
+    <link rel="icon" href="https://img.icons8.com/?size=96&id=H8vdXhbBKZmx&format=png" type="image/png">
+
+    <!-- Stiler -->
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
 
-<header>
+    <!-- Navigasjonsmeny -->
+    <header>
+        <nav class="navbar" id="about-me" role="navigation" aria-label="Hovednavigasjon">
+            <a href="index.html">Hjem</a>
+            <a href="about.html" aria-current="page">Om meg</a>
+        </nav>
+    </header>
 
-<nav class="navbar" id="about-me" role="navigation" aria-label="Main navigation">
- <a href="index.html">HJEM</a>
- <a href="about.html">OM MEG</a>
+    <!-- Hovedinnhold -->
+    <main>
+        <section class="about-container" aria-labelledby="about-heading">
 
+            <!-- Profilbilde -->
+            <div class="about-img">
+                <img src="img/pb-pic.jpg" alt="Portrett av Trym Bakke" class="pb">
+            </div>
 
-</nav>
-</header>
+            <!-- Tekstlig innhold -->
+            <div class="about-text">
+                <h1 id="about-heading">Trym Bakke</h1>
+                <h3>Bachelorgrad ved Høyskolen Kristiania</h3>
 
-<main>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nihil ad, tempore placeat rerum labore iusto corporis itaque
+                    deserunt quaerat mollitia eveniet eaque ratione porro animi
+                    distinctio, dolorem provident, odit similique?
+                </p>
 
-<section class="about-container" aria-labelledby="about-heading">
-    <div class="about-img">
-        <img src="img/pb-pic.jpg" alt="Bilde av meg" class="pb">
-    </div>
+                <!-- Sosiale medier ikoner -->
+                <div class="social-media-icons" aria-label="Lenker til sosiale medier">
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.svgrepo.com/show/452229/instagram-1.svg" alt="Instagram">
+                    </a>
+                    <a href="https://snapchat.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.svgrepo.com/show/382734/snapchat-snap-chat.svg" alt="Snapchat">
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.svgrepo.com/show/349436/linkedin.svg" alt="LinkedIn" id="linkedin-img">
+                    </a>
+                </div>
+            </div>
 
-    <div class="about-text">
-        <h1>About Me</h1>
-        <h3>Bachelor Degree On Kristiania</h3>
+        </section>
+    </main>
 
-    <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. N
-    ihil ad, tempore placeat rerum labore iusto corporis itaque
-     deserunt quaerat mollitia eveniet eaque ratione porro animi
-     distinctio, dolorem provident, odit similique?
-    </p>
-
-    </div>
-
-</section>
-
-
-
-
-</main>
 </body>
 </html>

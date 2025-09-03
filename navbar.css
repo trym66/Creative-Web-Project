@@ -2,11 +2,12 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: #714b28;;
+    background-color: #714b28;
     height: auto;
 }
 
 .navbar a{
+    position: relative;
     margin: 1rem 0.2rem;
     text-decoration: none;
     color: black;
@@ -25,5 +26,6 @@
 }
 
 footer{
-    background-color: black;
+    background-color: #714b28;
+    padding: 1rem;
 }

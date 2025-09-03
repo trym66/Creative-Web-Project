@@ -4,85 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mine Bøker</title>
+    
+    <!-- STILER -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="navbar.css">
+
+    <!-- FAVICON (nettleser ikon i tab) -->
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=38854&format=png">
 </head>
 <body>
+
 <header>
-
-<nav class="navbar" role="navigation" aria-label="Main navigation">
- <a href="index.html">HJEM</a>
- <a href="about.html">OM MEG</a>
-
-
-</nav>
+    <!-- Navigasjonsmeny -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT ME</a>
+    </nav>
 </header>
 
 <main>
 
-    <!-- <h1 class="main-heading"> Bokoversikt</h1> -->
+    <!-- ----------------------------
+         Alle bøker
+    ---------------------------- -->
+    <section class="all-books">
+        <h1 class="main-heading">Library</h1>
+        <ul>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/
+                        alternativ-livsstil/becoming-supernatural" target="_blank">
+                    <img src="img/becoming-supernatural.webp"
+                         class="book-cover"
+                         alt="Bok: Becoming supernatural av Joe Dispenza">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.norli.no/boker/skjonnlitteratur/romaner/engelske-romaner/dead-poets-society" target="_blank">
+                    <img src="img/dead-poet.webp"
+                         class="book-cover"
+                         alt="Bok: Dead poet society av Kleinbaum">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/
+                        selvutvikling/det-er-na-du-lever-2" target="_blank">
+                    <img src="img/det-er-no-du-lever.webp"
+                         class="book-cover"
+                         alt="Bok: Det er nå du lever av Eckhart Tolle">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/historie-og-dokumentar/
+                        debatt-og-samfunn/det-jeg-sa" target="_blank">
+                    <img src="img/det-jeg-soo.webp"
+                         class="book-cover"
+                         alt="Bok: Det jeg så - flukten, familien og livet som krigsreporter av Yama Wolasmal">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/historie-og-dokumentar/
+                        debatt-og-samfunn/palestina-3" target="_blank">
+                    <img src="img/palestina.webp"
+                         class="book-cover"
+                         alt="Bok Palestina - Israels ran, vårt svik av Odd Karsten Tveit">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/
+                        alternativ-livsstil/the-law-of-attraction-1" target="_blank">
+                    <img src="img/law-of-attraction.webp"
+                         class="book-cover"
+                         alt="Bok: The law of attraction av Esther Hicks og Jerry Hicks">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/
+                        spiritualitet/du-er-klarsynt-2" target="_blank">
+                    <img src="img/du-er-klarsynt.webp"
+                         class="book-cover"
+                         alt="Du er klarsynt av Lilli Bendriss og Camillo Løken">
+                </a>
+            </li>
+        </ul>
+    </section>
 
-<section class="all-books">
-   <h1 class="main-heading"> Bokoversikt</h1>
+    <!-- ----------------------------
+         Bøker under lesing
+    ---------------------------- -->
+    <section class="current-books">
+        <h3 class="sub-headings">Currently Reading</h3>
+        <ul>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/
+                        alternativ-livsstil/becoming-supernatural" target="_blank">
+                    <img src="img/becoming-supernatural.webp"
+                         class="book-cover"
+                         alt="Bok: Becoming supernatural av Joe Dispenza">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.norli.no/boker/skjonnlitteratur/romaner/engelske-romaner/dead-poets-society" target="_blank">
+                    <img src="img/dead-poet.webp"
+                         class="book-cover"
+                         alt="Bok: Dead poet society av Kleinbaum">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/
+                        alternativ-livsstil/the-law-of-attraction-1" target="_blank">
+                    <img src="img/law-of-attraction.webp"
+                         class="book-cover"
+                         alt="Bok: The law of attraction av Esther Hicks og Jerry Hicks">
+                </a>
+            </li>
+        </ul>
+    </section>
 
-<ul>
-    <li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/alternativ-livsstil/becoming-supernatural" target="_blank"> 
-        <img src="img/becoming-supernatural.webp" class="book-cover" alt="Bok: Becoming supernatural av Joe Dispenza"></li></a>
-    <li> <a href="https://www.norli.no/boker/skjonnlitteratur/romaner/engelske-romaner/dead-poets-society" target="_blank">
-        <img src="img/dead-poet.webp" class="book-cover" alt="Bok: Dead poet society av Kleinbaum"></li></a>
-    <li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/selvutvikling/det-er-na-du-lever-2" target="_blank">
-        <img src="img/det-er-no-du-lever.webp" class="book-cover" alt="Bok: Det er nå du lever av Eckhart Tolle"></li></a>
-         <li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/historie-og-dokumentar/debatt-og-samfunn/det-jeg-sa" target="_blank">
-        <img src="img/det-jeg-soo.webp" class="book-cover" alt="Bok: Det jeg så - flukten, familien og livet som krigsreporter av Yama Wolasmal"></li></a>
-    <li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/historie-og-dokumentar/debatt-og-samfunn/palestina-3" target="_blank">
-        <img src="img/palestina.webp" class="book-cover" alt="Bok Palestina - Israels ran, vårt svik av Odd Karsten Tveit"></li></a>
-    <li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/alternativ-livsstil/the-law-of-attraction-1" target="_blank">
-        <img src="img/law-of-attraction.webp" class="book-cover" alt="Bok: The law of attraction av Esther Hicks og Jerry Hicks"></li></a>
-    <li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/spiritualitet/du-er-klarsynt-2" target="_blank">
-        <img src="img/du-er-klarsynt.webp" class="book-cover" alt="Du er klarsynt av Lilli Bendriss og Camillo Løken"></li></a>
-</ul>
-</section>
+    <!-- ----------------------------
+         Fullførte bøker
+    ---------------------------- -->
+    <section class="finished-books">
+        <h3 class="sub-headings">Completed Books</h3>
+        <ul>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/
+                        selvutvikling/det-er-na-du-lever-2" target="_blank">
+                    <img src="img/det-er-no-du-lever.webp"
+                         class="book-cover"
+                         alt="Bok: Det er nå du lever av Eckhart Tolle">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/
+                        spiritualitet/du-er-klarsynt-2" target="_blank">
+                    <img src="img/du-er-klarsynt.webp"
+                         class="book-cover"
+                         alt="Du er klarsynt av Lilli Bendriss og Camillo Løken">
+                </a>
+            </li>
+        </ul>
+    </section>
 
-
-<section class="read-books">
-    <h3 class="sub-headings">
-        Bøker jeg holder på med
-    </h3>
-
-<ul>
-    <li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/alternativ-livsstil/becoming-supernatural" target="_blank"> 
-        <img src="img/becoming-supernatural.webp" class="book-cover" alt="Bok: Becoming supernatural av Joe Dispenza"></li></a>
-    <li> <a href="https://www.norli.no/boker/skjonnlitteratur/romaner/engelske-romaner/dead-poets-society" target="_blank">
-        <img src="img/dead-poet.webp" class="book-cover" alt="Bok: Dead poet society av Kleinbaum"></li></a>
-    <li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/alternativ-livsstil/the-law-of-attraction-1" target="_blank">
-        <img src="img/law-of-attraction.webp" class="book-cover" alt="Bok: The law of attraction av Esther Hicks og Jerry Hicks"></li></a>
-    </ul>
-</section>
-
-<section class="finished-books">
-    <h1 class="sub-headings">
-        Bøker jeg er ferdig med å lese
-    </h1>
-
-    <ul>
-        <li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/selvutvikling/det-er-na-du-lever-2" target="_blank">
-     <img src="img/det-er-no-du-lever.webp" class="book-cover" alt="Bok: Det er nå du lever av Eckhart Tolle"></li></a>
-<li> <a href="https://www.norli.no/boker/dokumentar-og-fakta/livssyn-og-selvutvikling/spiritualitet/du-er-klarsynt-2" target="_blank">
-     <img src="img/du-er-klarsynt.webp" class="book-cover" alt="Du er klarsynt av Lilli Bendriss og Camillo Løken"></li></a>
-    </ul>
-</section>
 </main>
 
 <footer>
-
     <p>&copy; 2025 Trym Bakke</p>
-
-
 </footer>
-
 
 </body>
 </html>
-
-
-
